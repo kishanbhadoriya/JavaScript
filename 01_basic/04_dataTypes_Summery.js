@@ -40,3 +40,31 @@ console.log(typeof outsideTemp);
 console.log(typeof myFunction);
 // JavaScript is dynamic type language
 
+//******************************************Memory*******************//
+
+// Stack Memory---- Primative Data Type
+// Heap Memory------ Non Primitive Data Type
+
+let myName = "Kishan"
+let yourName = myName
+myName = "Singh"
+
+console.log(myName);
+console.log(yourName);
+
+let user = {
+    email: "kishan@gmail.com",
+    upi: "user@ybl"
+}
+
+let user2 = user
+
+user2.email = "user@gmail.com"
+console.log(user.email);
+console.log(user2.email);
+
+
+
+
+
+
